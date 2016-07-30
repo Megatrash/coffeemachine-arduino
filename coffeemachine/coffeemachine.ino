@@ -1,11 +1,3 @@
-/*
-    This sketch sends data via HTTP GET requests to data.sparkfun.com service.
-
-    You need to get streamId and privateKey at data.sparkfun.com and paste them
-    below. Or just customize this script to talk to other HTTP servers.
-
-*/
-
 #include <ESP8266WiFi.h>
 
 const char* ssid     = "zgWifiSpot";
@@ -22,7 +14,6 @@ void setup() {
   delay(10);
 
   // We start by connecting to a WiFi network
-
   Serial.println();
   Serial.println();
   Serial.print("Connecting to ");
